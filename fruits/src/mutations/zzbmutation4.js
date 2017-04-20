@@ -6,7 +6,7 @@ export default function(state, value) {
 	var arr = [];
 	$.ajax({
 		type: "GET",
-		url: baseUrl+"Fruits/serverPHP/DAL/main/main6.php?val=" + value,
+		url: baseUrl+"VebFruits/serverPHP/DAL/main/main6.php?val=" + value,
 		dataType: "jsonp",
 		async: 'false',
 		success: function(res) {

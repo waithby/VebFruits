@@ -3,11 +3,11 @@ import $ from "jquery";
 import {baseUrl} from '../../libs/baseURL.js'
 export default function(state, value) {
 	console.log(value);
-	console.log(baseUrl+"Fruits/serverPHP/DAL/main/main6.php?val=" + value)
+	console.log(baseUrl+"VebFruits/serverPHP/DAL/main/main6.php?val=" + value)
 	var arr = [];
 	$.ajax({
 		type: "GET",
-		url: baseUrl+"serverPHP/DAL/main/main6.php?val=" + value,
+		url: baseUrl+"VebFruits/serverPHP/DAL/main/main6.php?val=" + value,
 		dataType: "jsonp",
 		async: 'false',
 		success: function(res) {

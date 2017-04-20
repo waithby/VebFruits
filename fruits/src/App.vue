@@ -1,42 +1,25 @@
+
+
 <template>
-	 <div id="box">
+	<div id="box">
 
 		<!--body-->
 		<router-view></router-view>
-   <!--<div class="footer">
-			<nav class="mui-bar-tab">
-				<router-link to="/" >
-					<span class="mui-tab-label">首页</span>
-				</router-link>
-				<router-link to="/classify">
-					<span class="mui-tab-label">分页</span>
-				</router-link>
-				<router-link  to="/find">
-					<span class="mui-tab-label">发现</span>
-				</router-link>
-				<router-link  to="/detail">
-					<span class="mui-tab-label">购物车</span>
-				</router-link>
-				<router-link  to="/myself" >
-					<span class="mui-tab-label">我的</span>
-				</router-link>
-			</nav>
-</div>-->
-<div class="footer index_foot">
+		<div class="footer index_foot">
 			<div class="index_foot_nei">
-				<router-link to="/" >
+				<router-link to="/">
 					<div id="f1" class="index_f1"><img src="src/components/main/img/home.jpg" width="30" height="30"></div>
 				</router-link>
-				<router-link to="/classify" >
+				<router-link to="/classify">
 					<div id="f3" class="index_f1"><img src="src/components/main/img/sort.jpg" width="30" height="30"></div>
 				</router-link>
-				<router-link to="/find" >
+				<router-link to="/find">
 					<div id="f2" class="index_f1"><img src="src/components/main/img/event.jpg" width="30" height="30"></div>
 				</router-link>
-				<router-link to="/detail" >
+				<router-link to="/detail">
 					<div id="f4" class="index_f1"><img src="src/components/main/img/cart.jpg" width="30" height="30"></div>
 				</router-link>
-				<router-link to="/login" >
+				<router-link to="/login">
 					<div id="f5" class="index_f1"><img src="src/components/main/img/user.jpg" width="30" height="30"></div>
 				</router-link>
 				<div id="t1" class="index_t1" style="color: rgb(0, 153, 0);">首页</div>
@@ -48,11 +31,6 @@
 		</div>
 	</div>
 </template>
-
-
-
-
-
 <script type="text/javascript">
 	import {
 		mapGetters,
@@ -102,10 +80,8 @@
 			console.log(this.$store.getters)
 		}
 	}
-</script>
+</script>-->
 <style lang="css">
 	@import url("components/main/css/index.css");
 </style>
-
-
 
