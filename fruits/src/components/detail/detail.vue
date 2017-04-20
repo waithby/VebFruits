@@ -1,5 +1,9 @@
 <template>
 <div>
+	<header class="mui-bar mui-bar-nav">
+			<a id="back" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 id="title" class="mui-title">踏青休闲食品</h1>
+	</header>
   <div id="dh_detail">
     <div id="dh_wrap">
       <div id="slider" class="mui-slider">
@@ -128,7 +132,8 @@
        }
      }
    },
-   beforeMount(){
+   created(){
+   	console.log(123456)
     if(location.hash){
         url.search(location.href)
         try {
@@ -136,6 +141,10 @@
        }catch(error) {
          alert(error)
        }
+    };
+//  console.log(location.href)
+    if(location.hash=="#/detail"){
+    	location.hash="#/login"
     }
    }
 

@@ -6,7 +6,6 @@ export default function(state,value){
 		dataType:'jsonp',
 		jsonpCallback:'demo',
 		success:function(res){
-		console.log(res)
 			state.findAjax = JSON.parse(res)
 			return state
 		}

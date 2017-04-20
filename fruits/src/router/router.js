@@ -15,9 +15,9 @@ import detail from '../components/detail/detail.vue';
 import car from '../components/car/car.vue';
 
 //tw
- import TwComponent from '../components/classify/TwComponent.vue';
- import TwListComponent from '../components/classify/TwListComponent.vue';
- import ClassifyComponent from '../components/classify/ClassifyComponent.vue';
+import TwComponent from '../components/classify/TwComponent.vue';
+import TwListComponent from '../components/classify/TwListComponent.vue';
+import ClassifyComponent from '../components/classify/ClassifyComponent.vue';
 //demo
 import demo from '../components/componentDemo/comDemo.vue';
 Vue.use(VueRouter)
@@ -26,44 +26,48 @@ var router = new VueRouter({
 		path: '/',
 		component: App,
 		children: [{
-			path: '/',
-			component: main
-			},//yw
-			{
+					path: '/',
+					component: main
+				}, //yw
+				{
 					path: 'register',
 					component: register
 				}, {
 					path: 'login',
 					component: login
-				}]
-			},  {
-				path: '/find',
-				component: find
-			}, {
-				path: '/findDetail/:id',
-				component: findDetail
-			}, {
-				path: '/detail/:id',
-				component: detail
-			},
-      {
-      //tw
-      	path:'/classify',
-         component:TwComponent,
-         children:[{
-             path:'/classify/',
-             component:TwListComponent
-         },{
-             path:'/classify/goods/:goodsname',
-             component:ClassifyComponent
-         }]
-      }
-						// , {
-						// 	path: '/car',
-						// 	component: car
-						// }
-
-		]
+				},
+				//			]
+				//		}, 
+				{
+					path: '/find',
+					component: find
+				}, {
+					path: '/findDetail/:id',
+					component: findDetail
+				}, {
+					path: '/detail/:id',
+					component: detail
+				}, {
+					path: '/detail',
+					component: detail
+				}, {
+					//tw
+					path: '/classify',
+					component: TwComponent,
+					children: [{
+						path: '/classify/',
+						component: TwListComponent
+					}, {
+						path: '/classify/goods/:goodsname',
+						component: ClassifyComponent
+					}]
+				}
+			]
+			// , {
+			// 	path: '/car',
+			// 	component: car
+			// }
+	}]
 })
 
 export default router

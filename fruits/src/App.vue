@@ -49,11 +49,7 @@
 	</div>
 </template>
 
-
-
-
-
-<script type="text/javascript">
+<!--<script type="text/javascript">
 	import {
 		mapGetters,
 		mapActions
@@ -102,7 +98,7 @@
 			console.log(this.$store.getters)
 		}
 	}
-</script>
+</script>-->
 <style lang="css">
 	@import url("components/main/css/index.css");
 </style>
