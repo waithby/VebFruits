@@ -5,7 +5,7 @@
       <!--<h1 class="mui-title">my</h1>-->
       <!--<a href="login.html" class=" mui-icon mui-icon-contact person"></a>-->
       <div class="index-logo">
-        <img src="http://localhost:8080/src/components/main/img/logo.jpg" />
+        <img src="/src/components/main/img/logo.jpg" />
       </div>
       <!--<div class="mui-input-row mui-search search">
           <input type="search" class="mui-input-clear" placeholder="">
@@ -29,13 +29,13 @@
       </div>
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner1.jpg" /></div>
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner2.jpg" /></div>
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner3.jpg" /></div>
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner4.jpg" /></div>
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner5.jpg" /></div>
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner6.jpg" /></div>
-          <div class="swiper-slide"><img src="http://localhost:8080/src/components/main/img/banner7.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner1.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner2.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner3.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner4.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner5.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner6.jpg" /></div>
+          <div class="swiper-slide"><img src="/src/components/main/img/banner7.jpg" /></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -57,66 +57,66 @@
       <div id="scroller" class="index_time_list clear">
         <ul class="img-container" style="width:2310px">
           <li class="index_touch">
-            <div class="index_time_list_z1"><img src="http://localhost:8080/src/components/main/img/list1_1.jpg" width="70" height="70"></div>
+            <div class="index_time_list_z1"><img src="/src/components/main/img/list1_1.jpg" width="70" height="70"></div>
 
             <div class="index_time_list_z2">春笋<br>
               <span class="index_floor_list_pb">￥2.99</span><span class="index_floor_list_pc">/500g</span></div>
             <div class="index_flash_sale_goodtb2">
-              <div class="index_flash_sale_goodtb_left"><img src="http://localhost:8080/src/components/main/img/time.jpg" width="26px"></div>
+              <div class="index_flash_sale_goodtb_left"><img src="/src/components/main/img/time.jpg" width="26px"></div>
               <div class="index_flash_sale_goodtb_right">特价</div>
             </div>
           </li>
 
           <li class="index_touch">
-            <div class="index_time_list_z1"><img src="http://localhost:8080/src/components/main/img/list1_2.jpg" width="70" height="70"></div>
+            <div class="index_time_list_z1"><img src="/src/components/main/img/list1_2.jpg" width="70" height="70"></div>
 
             <div class="index_time_list_z2">丝瓜<br>
               <span class="index_floor_list_pb">￥4.30</span><span class="index_floor_list_pc">/500g</span></div>
             <div class="index_flash_sale_goodtb2">
-              <div class="index_flash_sale_goodtb_left"><img src="http://localhost:8080/src/components/main/img/time.jpg" width="26px"></div>
+              <div class="index_flash_sale_goodtb_left"><img src="/src/components/main/img/time.jpg" width="26px"></div>
               <div class="index_flash_sale_goodtb_right">特价</div>
             </div>
           </li>
 
           <li class="index_touch">
-            <div class="index_time_list_z1"><img src="http://localhost:8080/src/components/main/img/list1_3.jpg" width="70" height="70"></div>
+            <div class="index_time_list_z1"><img src="/src/components/main/img/list1_3.jpg" width="70" height="70"></div>
 
             <div class="index_time_list_z2">白蘑菇<br>
               <span class="index_floor_list_pb">￥6.90</span><span class="index_floor_list_pc">/500g</span></div>
             <div class="index_flash_sale_goodtb2">
-              <div class="index_flash_sale_goodtb_left"><img src="http://localhost:8080/src/components/main/img/time.jpg" width="26px"></div>
+              <div class="index_flash_sale_goodtb_left"><img src="/src/components/main/img/time.jpg" width="26px"></div>
               <div class="index_flash_sale_goodtb_right">特价</div>
             </div>
           </li>
 
           <li class="index_touch">
-            <div class="index_time_list_z1"><img src="http://localhost:8080/src/components/main/img/list1_4.jpg" width="70" height="70"></div>
+            <div class="index_time_list_z1"><img src="/src/components/main/img/list1_4.jpg" width="70" height="70"></div>
 
             <div class="index_time_list_z2">皇冠梨 大包...<br>
               <span class="index_floor_list_pb">￥3.30</span><span class="index_floor_list_pc">/500g</span></div>
             <div class="index_flash_sale_goodtb2">
-              <div class="index_flash_sale_goodtb_left"><img src="http://localhost:8080/src/components/main/img/time.jpg" width="26px"></div>
+              <div class="index_flash_sale_goodtb_left"><img src="/src/components/main/img/time.jpg" width="26px"></div>
               <div class="index_flash_sale_goodtb_right">特价</div>
             </div>
           </li>
           <li class="index_touch">
-            <div class="index_time_list_z1"><img src="http://localhost:8080/src/components/main/img/list1_4.jpg" width="70" height="70"></div>
+            <div class="index_time_list_z1"><img src="/src/components/main/img/list1_4.jpg" width="70" height="70"></div>
 
             <div class="index_time_list_z2">皇冠梨 大包...<br>
               <span class="index_floor_list_pb">￥3.30</span><span class="index_floor_list_pc">/500g</span></div>
             <div class="index_flash_sale_goodtb2">
-              <div class="index_flash_sale_goodtb_left"><img src="http://localhost:8080/src/components/main/img/time.jpg" width="26px"></div>
+              <div class="index_flash_sale_goodtb_left"><img src="/src/components/main/img/time.jpg" width="26px"></div>
               <div class="index_flash_sale_goodtb_right">特价</div>
             </div>
           </li>
 
           <li class="index_touch">
-            <div class="index_time_list_z1"><img src="http://localhost:8080/src/components/main/img/list1_3.jpg" width="70" height="70"></div>
+            <div class="index_time_list_z1"><img src="/src/components/main/img/list1_3.jpg" width="70" height="70"></div>
 
             <div class="index_time_list_z2">白蘑菇<br>
               <span class="index_floor_list_pb">￥6.90</span><span class="index_floor_list_pc">/500g</span></div>
             <div class="index_flash_sale_goodtb2">
-              <div class="index_flash_sale_goodtb_left"><img src="http://localhost:8080/src/components/main/img/time.jpg" width="26px"></div>
+              <div class="index_flash_sale_goodtb_left"><img src="/src/components/main/img/time.jpg" width="26px"></div>
               <div class="index_flash_sale_goodtb_right">特价</div>
             </div>
           </li>
@@ -125,10 +125,10 @@
       <!--index_time_list-->
 
       <div class="index_user_center clear">
-        <div class="index_u" onclick="is_login('1', true)"><img src="http://localhost:8080/src/components/main/img/select1.jpg" width="50px" border="none"></div>
-        <div class="index_u" onclick="is_login('2', true)"><img src="http://localhost:8080/src/components/main/img/select2.jpg" width="50px" border="none"></div>
-        <div class="index_u" id="checkIn"><img src="http://localhost:8080/src/components/main/img/select3.jpg" width="50px" border="none"></div>
-        <div class="index_u" onclick="is_login('4', true)"><img src="http://localhost:8080/src/components/main/img/select4.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('1', true)"><img src="/src/components/main/img/select1.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('2', true)"><img src="/src/components/main/img/select2.jpg" width="50px" border="none"></div>
+        <div class="index_u" id="checkIn"><img src="/src/components/main/img/select3.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('4', true)"><img src="/src/components/main/img/select4.jpg" width="50px" border="none"></div>
 
         <div class="index_u_t1">我的订单</div>
         <div class="index_u_t1">轻松退</div>
@@ -137,10 +137,10 @@
       </div>
       <!--index_user_center-->
       <div class="index_user_center clear">
-        <div class="index_u" onclick="is_login('5', false)"><img src="http://localhost:8080/src/components/main/img/select5.jpg" width="50px" border="none"></div>
-        <div class="index_u" onclick="is_login('6', false)"><img src="http://localhost:8080/src/components/main/img/select6.jpg" width="50px" border="none"></div>
-        <div class="index_u" onclick="is_login('7', false)"><img src="http://localhost:8080/src/components/main/img/select7.jpg" width="50px" border="none"></div>
-        <div class="index_u" onclick="is_login('8', false)"><img src="http://localhost:8080/src/components/main/img/select8.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('5', false)"><img src="/src/components/main/img/select5.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('6', false)"><img src="/src/components/main/img/select6.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('7', false)"><img src="/src/components/main/img/select7.jpg" width="50px" border="none"></div>
+        <div class="index_u" onclick="is_login('8', false)"><img src="/src/components/main/img/select8.jpg" width="50px" border="none"></div>
         <div class="index_u_t1">送礼专区</div>
         <div class="index_u_t1">进口馆</div>
         <div class="index_u_t1">吃饭吧</div>
@@ -150,7 +150,7 @@
 
       <div class="content clear">
         <div class="content1 floor1">
-          <img src="http://localhost:8080/src/components/main/img/banner6.jpg" />
+          <img src="/src/components/main/img/banner6.jpg" />
           <div class="index_sale">
             <div class="index_sale_z1">4月营养早餐</div>
           </div>
@@ -160,7 +160,7 @@
         </div>
         <!--floor1-->
         <div class="content1 floor2">
-          <img src="http://localhost:8080/src/components/main/img/banner14.jpg" />
+          <img src="/src/components/main/img/banner14.jpg" />
           <div class="index_sale">
             <div class="index_sale_z1">燕之坊</div>
             <div class="index_sale_z2">特惠专享</div>
@@ -172,7 +172,7 @@
         <!--floor2-->
 
         <div class="content1 floor3">
-          <img src="http://localhost:8080/src/components/main/img/banner25.jpg" />
+          <img src="/src/components/main/img/banner25.jpg" />
           <div class="index_sale">
             <div class="index_sale_z1">休闲一刻</div>
             <!--<div class="index_sale_z2">特惠专享</div>-->
@@ -184,7 +184,7 @@
         <!--floor3-->
 
         <div class="content1 floor4">
-          <img src="http://localhost:8080/src/components/main/img/banner1.jpg" />
+          <img src="/src/components/main/img/banner1.jpg" />
           <div class="index_sale">
             <div class="index_sale_z1">中粮</div>
             <!--<div class="index_sale_z2">特惠专享</div>-->

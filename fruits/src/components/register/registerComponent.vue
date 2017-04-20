@@ -4,7 +4,7 @@
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="http://localhost:8080/#/myself/login"></a>
 			<h1 class="mui-title">注册</h1>
 		</header>
-		<div class="mui-content" id="top">
+		<div class="mui-content" id="top1">
 			<div class="mui-content-padded" id="box" style="margin: 0px;">
 				<form class="mui-input-group">
 			        <div class="mui-content-padded" style="margin: 5px;text-align: center;">
