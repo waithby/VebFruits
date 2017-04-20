@@ -1,6 +1,8 @@
 import $ from 'jquery'
 import {baseUrl} from '../../libs/baseURL.js'
-export default function(state,value){
+export default function(state,value ){
+    
+    console.log(111)
         $.ajax({
             url:baseUrl + "/Fruits/serverPHP/DAL/Classify/Classify.php",
             dataType:'jsonp',

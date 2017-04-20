@@ -17,21 +17,18 @@ export default {
   },
   getAjax:function(state,value){
     var self=this;
-//  console.log(123)
+    console.log(123)
    $.ajax({
     url:baseUrl+'Fruits/serverPHP/DAL/Detail/dh_data.php',
     dataType:'jsonp',
     jsonpCallback:'detail',
     success:function(res){
-    	state.data.__proto__=[];
-    	console.log( state.data)
-    	console.log( state.data instanceof Array)
       var  obj=JSON.parse(res)
            state.data.push(obj);
       var string=self.search(value)+"";
       for (var i = 0; i < state.data[0].length; i++){
          if (string == state.data[0][i].fruit_ids) {
-//         console.log(state.data[0][i]);
+           console.log(state.data[0][i]);
            return state.data=state.data[0][i]
          }
        }
@@ -40,7 +37,7 @@ export default {
   },
   search:function(url){
     var arr=(url.split('#/')[1]+"").split("/")[1]
-//  console.log(arr);
+    console.log(arr);
     return arr;
   },
   getnum:function(state,id){

@@ -84,6 +84,7 @@
     <script type="text/javascript">
         import {mapActions,mapGetters} from "vuex";
         import Vue from 'vue';
+        import $ from 'jquery'
         import VueRouter from 'vue-router'; 
         
         export default {
@@ -106,8 +107,8 @@
                             name:this.name,
                             pwd:this.pwd
                          }
-                        
-                        console.log(this.twdata)
+                        $(event.target).closest('li').attr('class','active').siblings('li').removeClass('active')
+                        console.log(event.target)
                          this.$store.dispatch("tw",data )
                      }catch(error) {
                          alert(error)

@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import $ from 'jquery'
+import {baseUrl} from '../../libs/baseURL.js'
+
 //zm
 import findGetters from '../getters/findGetter.js'
 import findDetailGetters from '../getters/findDetaliGetter.js'
@@ -84,7 +86,7 @@ const mutations = {
     ClassifyMutations(state,value)
   },
   ClassHref(state, value){
-    location.href = "http://localhost/Fruits/fruits/src/components/classify/reg.html"
+    location.href = "http://localhost/VebFruits/fruits/src/components/classify/reg.html"
   },
   TwHref(state, value){
     location.href = "http://localhost:8080/#/classify/"
@@ -168,7 +170,7 @@ const actions = {
     },
     userSignin({commit},value){
         	console.log(value,'go')
-        	var url = 'http://localhost/FruitsProject/Fruits/serverPHP/DAL/Login/Login.php';  
+        	var url = baseUrl +'/FruitsProject/Fruits/serverPHP/DAL/Login/Login.php';  
 	        $.ajax(url, {  
 	        	type:'GET', 
 		        data:value,
@@ -187,7 +189,7 @@ const actions = {
         }       
     },
     send({commit},value){ 
-        var url = 'http://localhost/FruitsProject/Fruits/serverPHP/DAL/register/register.php';  
+        var url = baseUrl+'/FruitsProject/Fruits/serverPHP/DAL/register/register.php';  
         console.log(JSON.stringify(value))
         $.ajax(url, {  
         	type:'GET', 

@@ -1,4 +1,3 @@
-#find_detail{background: #fafafa;}
 .mui-bar-nav {top: 0;background: linear-gradient(to right, #11b57c , #0eb27b);-webkit-box-shadow: 0 1px 6px #ccc;box-shadow: 0 1px 6px #ccc;}
 .mui-bar-nav .mui-title{color: white;}
 .mui-icon-back:before, .mui-icon-left-nav:before {color: white;}
@@ -39,5 +38,5 @@
 .zm_oldprice{float: right;color: #ccc;font-size: 12px;}
 .mui-table-view-cell:after{background-color: white; }
 
-.title_img{margin: 50px 10px 0 10px;}
+.title_img{margin: 25px 10px 0 10px;}
 .title_img img{display: block;width: 100%;}

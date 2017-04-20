@@ -10,11 +10,6 @@
 					<!--数据列表-->
 					<ul class="mui-table-view mui-table-view-chevron">
 						<li class=" find_view_cell" v-for="(item,index) in findData" key={{index}}>
-							<div class="index_time_p2" v-if="index==0?true:false">
-					          <input type="button" class="index_time_bu1" value="04" id="hour"> ：
-					          <input type="button" class="index_time_bu1" value="12" id="minute"> ：
-					          <input type="button" class="index_time_bu1" value="30" id="second">
-					        </div>
 							<router-link :to="'/findDetail/'+item.goodsId">
 								<img :src="item.goodsImg">
 							</router-link> 

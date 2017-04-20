@@ -1,5 +1,5 @@
 <template>
-<div id="find_detail">
+<div>
 	<header class="mui-bar mui-bar-nav">
 			<a id="back" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 			<h1 id="title" class="mui-title">踏青休闲食品</h1>

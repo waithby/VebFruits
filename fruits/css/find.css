@@ -12,19 +12,3 @@
     content: '';
 }
 .mui-scroll-wrapper{overflow:inherit ;}
-#find .index_time_p2{
-	position: absolute;
-    top: 56px;
-    left: 15px;
-    line-height: 27px;
-}
-#find .index_time_bu1{
-	border: none;
-	background: #10b47b;
-	color: white;
-	text-align: center;
-    width: 35px;
-    border-radius: 35px;
-    height: 27px;
-    text-indent: -2px;
-}

@@ -25,7 +25,7 @@
                 padding: 10px;
             }
             .mui-navbar-inner{
-                background: orange;
+                background: rgb(0, 166, 83);
                 position: relative;
 
             }
@@ -50,13 +50,14 @@
                 margin: 0;
                 padding: 0;
                 float: left;
+                margin: 1%;
                 line-height: normal;
                 color: #caab73;
-                width: 36%;
+                width: 35%;
                 margin-left: 0;
                 height: auto;
                 overflow: auto;
-                /*margin-top: 50px;*/
+                /* margin-top: 50px; */
                 text-align: center;
             }
            #setting .list li{
@@ -66,7 +67,7 @@
                 position: relative;
                 margin: 2px ;
                 padding: 10% 5%;
-                border: 1px solid #e8cfaa;
+                border: 1px solid #9cbd9c;
                 border-radius: 10px;
             }
           #setting  .list .active{
@@ -121,8 +122,9 @@
             .product{
                 margin-top: 10px;
                 width: 64%;
-                height: 520px;
+                height: 510px;
                 overflow: auto;
+                text-align: left;
                 float: left;
                 font-size: 12px;
 
@@ -150,11 +152,11 @@
             .product ul li h2{
                 font-size:16px ;
                 margin: 5% 5%;
-                color: #8e6213;
+                color: #035f30;
             }
             .product ul .pList p{
                 font-size: 13px;
-                color: #b76e06;
+                color: #082f0e;
             }
             .product ul .pList img{
                 width: 90%;
