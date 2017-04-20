@@ -23,19 +23,13 @@ export default {
     dataType:'jsonp',
     jsonpCallback:'detail',
     success:function(res){
-<<<<<<< HEAD
-=======
     	state.data.__proto__=[];
->>>>>>> 9774b3d54e7a52937ad76ab2067a1cf92b7aa56a
       var  obj=JSON.parse(res)
            state.data.push(obj);
       var string=self.search(value)+"";
       for (var i = 0; i < state.data[0].length; i++){
          if (string == state.data[0][i].fruit_ids) {
-<<<<<<< HEAD
            console.log(state.data[0][i]);
-=======
->>>>>>> 9774b3d54e7a52937ad76ab2067a1cf92b7aa56a
            return state.data=state.data[0][i]
          }
        }
