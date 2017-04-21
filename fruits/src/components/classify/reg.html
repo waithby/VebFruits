@@ -7,6 +7,7 @@
 		<title></title>
 		<link href="../../../css/mui.min.css" rel="stylesheet" />
 		<link href="../../../css/style.css" rel="stylesheet" />
+		<script src='./jquery.min.js'></script>
 		<style>
 			.clear{
 			  zoom:1;
@@ -209,7 +210,7 @@
 				<h3>
 					<span class="active">默认</span> &nbsp;&nbsp;|<span>最新↓</span> &nbsp;&nbsp;|<span>销量↓</span> &nbsp;&nbsp;|<span>价格↑</span> 
 				</h3>
-				<ul class="mes">
+				<ul class="mes" id = 'mes'>
 					<li>
 						<img src="../../../images/220(1).jpeg" alt="" />
 						<p>皇冠梨2个装</p>
@@ -280,13 +281,23 @@
 				<img src="../../../images/tabbar_cart_n.png" alt="" />
 				
 			</div>
-			<em>0件</em>
+			<em><i>0</i>件</em>
 		</div>
 				
 		<script>
+	
 			document.getElementById('home').onclick=function(){
 				location.href="http://localhost:8080/"
 			}
+		    // document.getElementById('mes').children.onclick=function(){
+	    	// 	location.href="http://localhost:8080/#/detail/2"
+		    // }
+			$('#mes').find('li').click(function(){
+				location.href="http://localhost:8080/#/detail/2"
+			})
+			$('#mes').find('li').find(i).find(img).click(function(){
+				$('.footer').find('em').find('i').val($('.footer').find('em').find('i').val()+1)
+			})
 		</script>
 	</body>
 
