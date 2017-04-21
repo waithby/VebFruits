@@ -37,7 +37,7 @@
           <div class="mui-indicator"></div>
         </div>
       </div>
-      <div class="product-info">
+      <div class="product-info" style="padding: 10px 15px;">
         <div class="product-name">{{detailObj.fruit_orign}}{{detailObj.fruit_type}}(GD)</div>
         <div class="product-price"><span class="price">￥<span id="divPrice">{{detailObj.fruit_newprice}}</span></span><del id="divPrice2">￥{{detailObj.fruit_oldprice}}</del><img src="" style="display:none" id="phone"></div>
         <div class="quantity">
@@ -46,7 +46,7 @@
           <a id="increment" class="increment" @click='increment'>+</a>
         </div>
       </div>
-      <div class="product-choose">
+      <div class="product-choose" style="padding: 10px 15px;">
         <div class="title">规格</div>
         <ul id="divSpec">
          <li>
@@ -57,21 +57,21 @@
        </li>
      </ul>
    </div>
-  <div class="promotion_list" style="display:none">
+  <div class="promotion_list" style="display:none;padding: 10px 15px;">
       <ul id="divPromotions"></ul>
   </div>
-  <div class="product-other-wrap">
+  <div class="product-other-wrap" style="padding: 10px 15px;">
     <div class="product-other">
       <p>产地 <span id="spPlaceOfOrigin">{{detailObj.fruit_orign}}</span></p>
       <p id="spDeliveryTips">16:00 前完成订单，预计明日(4月16日)送达</p>
     </div>
   </div>
-  <div class="comment_link" id="divVote"><a>用户评价<span id="spVoteCount">({{detailObj.user_review}})</span><span class="right" id="spVotePositiveRate"><strong><span>{{detailObj.user_satisfacy}}</span></strong>好评</span><span class="arrow" id="confirmVote"></span></a></div>
-  <div class="details_link">
+  <div class="comment_link" id="divVote" style="padding: 10px 15px;"><a>用户评价<span id="spVoteCount">({{detailObj.user_review}})</span><span class="right" id="spVotePositiveRate"><strong><span>{{detailObj.user_satisfacy}}</span></strong>好评</span><span class="arrow" id="confirmVote"></span></a></div>
+  <div class="details_link" style="padding: 10px 15px;">
   <a id="aProdectDetail" href="javascript:void(0)">商品图文详情（建议在WIFI下查看<span class="arrow">&gt;</span></a></div>
 </div>
 </div>
-<div class="shopping-cart">
+<div class="shopping-cart" style="padding: 10px 15px;">
   <div class="left">
     <a href="#" class="home"><i class="icon1"></i>首页</a>
     <div class="cart">
@@ -128,7 +128,7 @@
        }
      }
    },
-   beforeMount(){
+   created(){
     if(location.hash){
         url.search(location.href)
         try {
@@ -136,6 +136,9 @@
        }catch(error) {
          alert(error)
        }
+    };
+    if(location.hash=="#/detail"){
+    	location.hash="#/login"
     }
    }
 

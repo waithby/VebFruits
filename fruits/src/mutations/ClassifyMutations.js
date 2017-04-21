@@ -4,7 +4,7 @@ export default function(state,value ){
     
     console.log(111)
         $.ajax({
-            url:baseUrl + "/VebFruits/serverPHP/DAL/Classify/Classify.php",
+            url:baseUrl + "VebFruits/serverPHP/DAL/Classify/Classify.php",
             dataType:'jsonp',
             contentType: "application/x-www-form-urlencoded; charset=utf-8",
             success:function(data){

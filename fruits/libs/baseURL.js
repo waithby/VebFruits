@@ -1,1 +1,1 @@
-export var baseUrl="http://localhost/"
+export var baseUrl="http://localhost/FruitsProject/"

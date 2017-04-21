@@ -4,11 +4,11 @@
 			<a id="back" class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
 			<h1 id="title" class="mui-title">踏青休闲食品</h1>
 	</header>
-	<div class="title_img">
+	<div class="title_img" style="margin: 50px 10px 0 10px;">
 		<img v-for="(item,index) in findDetailData" :src="item.goodsImg" v-if="index==0?true:false" />
 	</div>
 	<div class="mui-content">
-		<div class="title">踏青美食</div>
+		<div class="title" style="margin-left: 15px;margin-top: 15px;">踏青美食</div>
 		<div class="mui-card" style="margin-bottom: 35px;">
 			<ul class="mui-table-view">
 				<li class="mui-table-view-cell mui-media" v-for="(item,index) in findDetailData" key="index" v-if="index==0?false:true">
