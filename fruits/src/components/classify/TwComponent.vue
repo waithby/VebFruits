@@ -98,7 +98,7 @@
             computed: mapGetters(['Adata','ttt']),
             methods:{
                 show:function(){
-                     console.log(this.state)
+//                   console.log(this.state)
                  },
                 ...mapActions(["get"]),
                 get:function(){
@@ -108,7 +108,7 @@
                             pwd:this.pwd
                          }
                         $(event.target).closest('li').attr('class','active').siblings('li').removeClass('active')
-                        console.log(event.target)
+//                      console.log(event.target)
                          this.$store.dispatch("tw",data )
                      }catch(error) {
                          alert(error)

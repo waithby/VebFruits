@@ -7,7 +7,7 @@ $(function() {
 		$('.zhezhao').slideUp("slow");
 	});
 	$('.list_city').children().click(function(){
-		console.log($(this).html());
+//		console.log($(this).html());
 			$('.index-posit').html($(this).html()+'<span class="mui-icon mui-icon-arrowdown"></span>');
 			$('.zhezhao').slideUp("slow");
 		})

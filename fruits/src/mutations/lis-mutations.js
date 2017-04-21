@@ -3,7 +3,7 @@
             state.messages=value
         },
         RANDOM:function(state){
-        	console.log(state,1)
+//      	console.log(state,1)
         	var arrNum=[];
         	for(var i=0;i<4;i++){
         		arrNum.push(parseInt(Math.random()*10))

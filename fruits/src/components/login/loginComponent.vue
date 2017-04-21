@@ -97,13 +97,13 @@
             userSignins(){
                 try {
                    this.value=!this.userPhone?'手机号不能为空':this.userPhone.length!=11?'您的用户名有误':!this.userPsw?'密码不能为空':!this.checkPsw?'验证码不能为空':''
-                   console.log(this.value)
+//                 console.log(this.value)
                    if(this.value!=''){
                    	  $('.layermmain').show();
                    }else{
                    	 var message={phone:this.userPhone,psw:this.userPsw}
                      this.$store.dispatch("userSignin",message)
-                     console.log(this)
+//                   console.log(this)
                      if(this.phoneNum){
                        this.$router.push({path:'/'})
                      }else if(!this.phoneNum){

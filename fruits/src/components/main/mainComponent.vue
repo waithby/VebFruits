@@ -252,10 +252,10 @@
       //      list = this.zzbcounta;
 
       this.list1 = this.$store.getters;
-      console.log(this.list1);
+//    console.log(this.list1);
     },
     beforeUpdate: function() {
-      console.log(this.$store.getters)
+//    console.log(this.$store.getters)
     }
   }
 </script>

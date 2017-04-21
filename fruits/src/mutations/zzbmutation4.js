@@ -2,7 +2,7 @@
 import $ from "jquery";
 import {baseUrl} from '../../libs/baseURL.js'
 export default function(state, value) {
-	console.log(value);
+//	console.log(value);
 	var arr = [];
 	$.ajax({
 		type: "GET",

@@ -67,7 +67,7 @@
                         name:this.name,
                         pwd:this.pwd
                      }
-                    console.log(this.twdata)
+//                  console.log(this.twdata)/
                      this.$store.dispatch("twhref",data )
                  }catch(error) {
                      alert(error)
