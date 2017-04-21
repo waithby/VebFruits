@@ -1,7 +1,7 @@
 <template>
     <div id="listen">	
 	    <header class="mui-bar mui-bar-nav"></header>
-		<div class="mui-content" id="top">
+		<div class="mui-content" id="top2">
 			<div class="mui-content-padded" id="box" style="margin: 0px;">
 				<form class="mui-input-group">
 					<div class="mui-input-row">
@@ -118,3 +118,6 @@
 		}
 	}
 </script>
+<style lang="css">
+@import url("../../../css/login.css");
+</style>

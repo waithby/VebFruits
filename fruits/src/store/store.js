@@ -170,11 +170,12 @@ const actions = {
     },
     userSignin({commit},value){
         	console.log(value,'go')
-        	var url = baseUrl +'/FruitsProject/Fruits/serverPHP/DAL/Login/Login.php';  
+        	var url = baseUrl +'VebFruits/serverPHP/DAL/Login/Login.php';  
 	        $.ajax(url, {  
 	        	type:'GET', 
 		        data:value,
 		        async:false,
+//		        dataType:"jsonp",
 		        success:function(data) {  
 		             console.log(data)
 		             commit("USERSIGNIN",data)
@@ -189,7 +190,7 @@ const actions = {
         }       
     },
     send({commit},value){ 
-        var url = baseUrl+'/FruitsProject/Fruits/serverPHP/DAL/register/register.php';  
+        var url = baseUrl+'VebFruits/serverPHP/DAL/register/register.php';  
         console.log(JSON.stringify(value))
         $.ajax(url, {  
         	type:'GET', 
